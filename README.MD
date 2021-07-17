@@ -4,4 +4,4 @@ Landing Page de ofertas da Black Friday.
 
 * Cadastra nome e e-mail para recebimento de ofertas;
 * Dados gravados no localstorage;
-* Hospedado na Netlify.
+* Hospedado na Netlify "beritica-black-friday.netlify.app".
