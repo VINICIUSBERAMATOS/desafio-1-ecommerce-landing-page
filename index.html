@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ofertas da BlackFriday</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <main>
+        <section class="sec-header">
+            <img src="assets/imagens/texto_black.png" alt="texto" class="logo-bf" />
+        </section>
+
+        <section class="sec-conteudo-um">
+            <div class="div-texto">
+                <h1 class="h1">Está no ar!</h1>
+                <h1 class="h1">Corra e aproveite as ofertas da Black Friday</h1>
+            </div>
+            <div id="content">
+                <p>Fique ligado nas melhores promoções e economize o seu dim dim.</p>
+                <p style="text-decoration: underline">Cadastre-se e receba nossas ofertas.</p>
+                <form class="formulario" id="form">
+                    <input type="text" id="nome" placeholder="Nome" required />
+                    <input type="email" id="email" placeholder="E-mail" required />
+                    <input type="submit" onclick="confirmacao()" name="enviar" class="bt-enviar" value="Cadastrar" />
+                </form>
+            </div>
+        </section>
+        <section class="sec-conteudo-dois">
+            <div class="div-conteudo-dois">
+                <h1 class="texto-sec2">Super descontos, tudo pela metade do dobro!</h1>
+                <div>
+                    <div class="div-itens">
+                        <div class="item">
+                            <p>Roupas</p>
+                            <img src="assets/imagens/roupas.jpg" alt="roupas" title="Roupas" onclick="oferta1()" />
+                        </div>
+                        <div class="item">
+                            <p>Calçados</p>
+                            <img src="assets/imagens/calcados.jpg" alt="tenis" title="Tênis" onclick="oferta2()" />
+                        </div>
+                        <div class="item">
+                            <p>Acessórios</p>
+                            <img src="assets/imagens/acessorio2.jpg" alt="relogio" title="Relógio"
+                                onclick="oferta3()" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-conteudo-tres">
+            <div class="div-itens">
+                <div class="item">
+                    <p>Home Office</p>
+                    <img src="assets/imagens/home-office.jpg" alt="relogio" title="Relógio" onclick="oferta3()" />
+                </div>
+                <div class="item">
+                    <p>Eletrodomésticos</p>
+                    <img src="assets/imagens/eletrodomesticos3.jpg" alt="tenis" title="Tênis" onclick="oferta2()" />
+                </div>
+                <div class="item">
+                    <p>Utensílios</p>
+                    <img src="assets/imagens/utensilios.jpg" alt="roupas" title="Roupas" onclick="oferta1()" />
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer role="contentinfo">
+    &copy; 2021 Vinícius Beritica
+</footer>
+<script src='app.js'></script>
+
+</html>
